@@ -17,5 +17,9 @@ project/plugins/project/
 .scala_dependencies
 .worksheet
 
+# check in compiled JavaScript
+!target/scala-2.12/real-estate-modeling-jsdeps.js
+!target/scala-2.12/real-estate-modeling-opt.js
+
 # Javascript specific
 node_modules
