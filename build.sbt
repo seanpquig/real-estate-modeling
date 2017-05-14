@@ -18,5 +18,5 @@ skip in packageJSDependencies := false
 
 jsDependencies ++= Seq(
   RuntimeDOM,
-  "org.webjars" % "jquery" % "2.1.4" / "2.1.4/jquery.js"
+  "org.webjars" % "jquery" % "2.1.4" / "2.1.4/jquery.min.js"
 )
