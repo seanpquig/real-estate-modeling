@@ -36,7 +36,7 @@ object MainApp extends js.JSApp {
     val horizontalBarDistance = barWidth + barSeparation
 
     //The value to multiply each bar's value by to get its height.
-    val barHeightMultiplier = graphHeight / maxData;
+    val barHeightMultiplier = graphHeight / maxData
 
     //Color for start
     val c = d3.rgb("DarkSlateBlue")
